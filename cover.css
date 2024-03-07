@@ -57,6 +57,22 @@ body {
 }
 
 #portrait-placeholder {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
+  background-color: azure;
+}
+
+body {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgb(45, 44, 44) 0.5px, transparent 1px),
+    linear-gradient(to bottom, rgb(45, 44, 44) 0.5px, transparent 1px);
+}
+
+#name {
+  font-family: "Cardo";
+}
+
+#name span {
+  font-size: 3.5rem;
 }
