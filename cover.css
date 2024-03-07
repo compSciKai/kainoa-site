@@ -44,7 +44,19 @@ body {
   margin-left: 1rem;
 }
 
-c.nav-masthead .active {
+.nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.logo {
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+#portrait-placeholder {
+  width: 150px;
+  height: 150px;
 }
