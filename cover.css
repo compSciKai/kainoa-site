@@ -71,8 +71,9 @@ body {
 
 #name {
   font-family: "Cardo";
+  letter-spacing: 3px;
 }
 
 #name span {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
