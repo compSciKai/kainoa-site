@@ -1,3 +1,3 @@
 Navigate to the site here:
 
-https://github.com/compSciKai/kainoa-site
+https://compscikai.github.io/kainoa-site/
