@@ -81,12 +81,12 @@ body {
     linear-gradient(to bottom, rgb(45, 44, 44) 0.5px, transparent 1px);
 }
 
-#name.title, #contact.title {
+#name.title {
   letter-spacing: 3px;
   color: rgb(97, 163, 193);
 }
 
-.contact.title {
+.contact.title, #contact.title {
   color: rgb(97, 163, 193);
 }
 
@@ -103,4 +103,9 @@ html {
 
 .title span {
   font-size: 1.5em;
+}
+
+a[href^="mailto:"] {
+  text-decoration: none;
+  color: rgb(253, 248, 226) !important;
 }
