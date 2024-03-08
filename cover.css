@@ -62,6 +62,10 @@ body {
   background-color: azure;
 }
 
+main {
+  margin-top: 75px;
+}
+
 body {
   background-size: 40px 40px;
   background-image:
