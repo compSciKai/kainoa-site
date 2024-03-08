@@ -81,8 +81,12 @@ body {
     linear-gradient(to bottom, rgb(45, 44, 44) 0.5px, transparent 1px);
 }
 
-#name.title {
+#name.title, #contact.title {
   letter-spacing: 3px;
+  color: rgb(97, 163, 193);
+}
+
+.contact.title {
   color: rgb(97, 163, 193);
 }
 
