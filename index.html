@@ -8,12 +8,13 @@
     <link href="cover.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">  </head>
-  <body class="d-flex h-100 text-bg-dark">
+  <body class="d-flex text-bg-dark">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="mb-auto">
-            <div>
-                <h3 class="float-md-start mb-0 logo">Ks.</h3>
-                <nav class="nav nav-masthead justify-content-center float-md-end">
+            <div class="navbar fixed-top pt-0 px-4 d-flex justify-content-between flex-sm-row
+            flex-column">
+                <h3 class="mb-0 logo justify-content-center align-self-center">Ks.</h3>
+                <nav class="nav nav-masthead justify-content-center">
                 <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
                 <a class="nav-link fw-bold py-1 px-0" href="#">Biography</a>
                 <a class="nav-link fw-bold py-1 px-0" href="#">Skills</a>
@@ -22,14 +23,14 @@
             </div>
         </header>
 
-        <main class="d-flex px-5 flex-column">
-            <div class="rounded-circle align-self-center mb-3" id="portrait-placeholder"></div>
-            <h1 class="text-center" id="name"><span>K</span>AINOA <span>S</span>EAMAN</h1>
+        <main class="d-flex px-5 mt-5 flex-column">
+            <div class="rounded-circle align-self-center my-4" id="portrait-placeholder"></div>
+            <h1 class="text-center mb-3" id="name"><span>K</span>AINOA <span>S</span>EAMAN</h1>
             <p class="lead text-justify">Kainoa is a passionate full-stack developer with secondary skills in design, quality assurance, and technical writing. He's designed user interfaces in the React framework, implemented robust frontend codebases with Typescript, and scalable backend applications in Node.js, and .NET. </p>
         </main>
 
         <footer class="mt-auto text-white-50">
-            <p>Inspired by the Bootstrap <a class="text-white" href="https://getbootstrap.com/docs/5.3/examples/cover/#">Cover example</a></p>
+            <p class="mb-0 mt-4">Inspired by the Bootstrap <a class="text-white" href="https://getbootstrap.com/docs/5.3/examples/cover/#">Cover example</a></p>
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
