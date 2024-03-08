@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
                 <h3 class="mb-0 logo justify-content-center align-self-center">Ks.</h3>
                 <nav class="nav nav-masthead justify-content-center">
                 <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-                <a class="nav-link fw-bold py-1 px-0" href="#">Biography</a>
+                <a class="nav-link fw-bold py-1 px-0" href="#about">About</a>
                 <a class="nav-link fw-bold py-1 px-0" href="#">Skills</a>
                 <a class="nav-link fw-bold py-1 px-0" href="#">Work History</a>
                 </nav>
@@ -24,11 +24,19 @@
         </header>
 
         <main class="d-flex px-5 flex-column">
+          <div id="home" class="d-flex flex-column">
             <img class="rounded-circle align-self-center mt-5 mb-3" id="portrait-placeholder" src="public/portrait-placeholder.jpg">
-            <h3 class="text-center mb-1" id="name"><span>K</span>AINOA <span>S</span>EAMAN</h1>
-            <p class="lead text-center mb-4">Kainoa is a passionate full-stack cloud developer with secondary skills in design, quality assurance, and technical writing.</p>
-            <p class="">He's designed user interfaces in the React framework, implemented robust frontend codebases with Typescript, and scalable backend applications in Node.js, and .NET.</p>
-        </main>
+            <h3 class="text-center mb-1 title" id="name"><span>K</span>AINOA <span>S</span>EAMAN</h1>
+            <p class="lead text-center mb-5">Kainoa is a passionate full-stack cloud developer with secondary skills in design, quality assurance, and technical writing.</p>
+          </div>
+            <div id="about">
+              <h4 class="title"><span>A</span>BOUT</h4>
+              <p class="">Kainoa specializes in designing user interfaces in the React framework, implementing robust frontend codebases with Typescript, and scalable backend applications in Node.js, and .NET.</p>
+              <p>In March 2024, Kainoa exited an exciting role with Collabware, where he gained a range of technical skills. He wore many hats, gaining knowledge as a technical writer, QA engineer, frontend engineer, and backend engineer. Armed with his skillset, He's excited for a new chapter.</p>
+              <p>Currently, he's been refining his technical skills with a full-stack bootcamp from Udemy, discovering nuances and new trends. Following studies will focus on the .NET framework, for a more specialized skillset.</p>
+              <p>Outside of his professional life, Kainoa focuses on his family: his partner, 1 year old boy, and 2 year old pup.</p>
+            </div>
+          </main>
 
         <footer class="mt-auto text-white-50">
             <p class="py-1 mt-4 text-center">Inspired by the Bootstrap <a class="text-decoration-none text-white-50" href="https://getbootstrap.com/docs/5.3/examples/cover/#">Cover example</a></p>
