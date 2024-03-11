@@ -7,10 +7,17 @@
 .btn-light,
 .btn-light:hover,
 .btn-light:focus {
-  color: #333;
+  color:rgb(102, 106, 140);
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
+.bi {
+  color: rgb(97, 163, 193);
+}
+
+.bi:hover {
+  color:rgb(102, 106, 140);
+}
 
 /*
  * Base structure
@@ -39,7 +46,7 @@ header > div {
 }
 
 .nav-masthead .nav-link:hover {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color:rgb(102, 106, 140);
 }
 
 .nav-masthead .nav-link:focus {
@@ -105,7 +112,7 @@ html {
   font-size: 1.5em;
 }
 
-a[href^="mailto:"] {
+a[href^="mailto:"], a[href^="tel:"] {
   text-decoration: none;
   color: rgb(253, 248, 226) !important;
 }
