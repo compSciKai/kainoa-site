@@ -1,41 +1,44 @@
 /*
- * Globals
+ * Main Structure
  */
 
-
-/* Custom default button */
-.btn-light,
-.btn-light:hover,
-.btn-light:focus {
-  color:rgb(102, 106, 140);
-  text-shadow: none; /* Prevent inheritance from `body` */
+html {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
-.bi {
-  color: rgb(97, 163, 193);
+.title span {
+  font-size: 1.5em;
 }
-
-.bi:hover {
-  color:rgb(102, 106, 140);
-}
-
-/*
- * Base structure
- */
 
 body {
   color: rgb(253, 248, 226);
   font-family: "Cardo";
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgb(45, 44, 44) 0.5px, transparent 1px),
+    linear-gradient(to bottom, rgb(45, 44, 44) 0.5px, transparent 1px);
 }
 
-.cover-container {
+.body-container {
   max-width: 42em;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.title {
+  font-family: "Cardo";
+  color: rgb(102, 106, 140);
+  scroll-margin-top: 106px;
 }
 
 
 /*
  * Header
  */
+
 header > div {
   box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.75);
 }
@@ -58,11 +61,6 @@ header > div {
   margin-left: 1rem;
 }
 
-/* .nav-masthead .active {
-  color: rgb(102, 106, 140);
-  border-bottom-color: rgb(102, 106, 140);
-} */
-
 .logo {
   font-family: "Alex Brush", cursive;
   font-weight: 400;
@@ -71,21 +69,15 @@ header > div {
   color: rgb(102, 106, 140);
 }
 
+
+/* 
+Home content 
+*/
+
 #portrait-placeholder {
   width: 200px;
   height: 200px;
   box-shadow: 1px 1px 15px 1px rgba(0,0,0,0.75);
-}
-
-main {
-  margin-top: 100px;
-}
-
-body {
-  background-size: 40px 40px;
-  background-image:
-    linear-gradient(to right, rgb(45, 44, 44) 0.5px, transparent 1px),
-    linear-gradient(to bottom, rgb(45, 44, 44) 0.5px, transparent 1px);
 }
 
 #name.title {
@@ -97,31 +89,34 @@ body {
   color: rgb(97, 163, 193);
 }
 
-.title {
-  font-family: "Cardo";
-  color: rgb(102, 106, 140);
-  scroll-margin-top: 106px;
-}
-
 div#home {
   scroll-margin-top: 106px;
 }
 
-html {
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-}
 
-.title span {
-  font-size: 1.5em;
-}
-
-a[href^="mailto:"], a[href^="tel:"] {
-  text-decoration: none;
-  color: rgb(253, 248, 226) !important;
-}
+/* 
+Icons 
+*/
 
 .icons-container {
   box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.36);
   border-radius: 24px;
+}
+
+.bi {
+  color: rgb(97, 163, 193);
+}
+
+.bi:hover {
+  color:rgb(102, 106, 140);
+}
+
+
+/*
+Contact
+*/
+
+a[href^="mailto:"], a[href^="tel:"] {
+  text-decoration: none;
+  color: rgb(253, 248, 226) !important;
 }
